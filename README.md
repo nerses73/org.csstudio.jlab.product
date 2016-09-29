@@ -1,4 +1,4 @@
-## CS-Studio JLab Product
+## CS-Studio JLab Product [![Build Status](https://travis-ci.org/wmoore28/org.csstudio.jlab.product.svg?branch=master)](https://travis-ci.org/wmoore28/org.csstudio.jlab.product)
 
 JLab-specific configuration for CS-Studio
 
