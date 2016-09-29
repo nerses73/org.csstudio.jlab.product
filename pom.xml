@@ -2,11 +2,11 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.csstudio</groupId>
-    <artifactId>template-product</artifactId>
+    <artifactId>jlab-product</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Template CS-Studio Product</name>
-    <description>An Template for creating your own CS-Studio product</description>
+    <name>Jlab CS-Studio Product</name>
+    <description>An Jlab for creating your own CS-Studio product</description>
 
     <!-- CHILD MODULES -->
     <modules>
@@ -29,7 +29,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jgit.dirtyWorkingTree>error</jgit.dirtyWorkingTree>
         <baselineMode>fail</baselineMode>
-	<product.name>cs-studio-template</product.name>
+	<product.name>cs-studio-jlab</product.name>
 	<product.version>${cs-studio.version}.0</product.version>
     </properties>
 

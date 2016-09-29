@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Cs-studio-template" uid="cs-studio-template" id="org.csstudio.product.product" application="org.csstudio.product.application" version="4.2.0" useFeatures="true" includeLaunchers="true">
+<product name="Cs-studio-jlab" uid="cs-studio-jlab" id="org.csstudio.product.product" application="org.csstudio.product.application" version="4.2.0" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/org.csstudio.product/icons/cs-studio-about.png"/>
@@ -44,7 +44,7 @@
    <launcher name="cs-studio">
       <solaris/>
       <win useIco="true">
-         <ico path="/template-product/repository/icons/css.ico"/>
+         <ico path="/jlab-product/repository/icons/css.ico"/>
          <bmp/>
       </win>
    </launcher>
@@ -72,22 +72,22 @@
       <feature id="org.eclipse.equinox.p2.extras.feature"/>
       <feature id="org.eclipse.fx.target.rcp.feature"/>
       <feature id="org.csstudio.product.feature"/>
-      <feature id="org.csstudio.template.product.configuration.feature"/>
+      <feature id="org.csstudio.jlab.product.configuration.feature"/>
       <feature id="org.csstudio.core.ui.feature"/>
       <feature id="org.csstudio.core.diirt.feature"/>
       <feature id="org.csstudio.core.base.feature"/>
       <feature id="org.csstudio.core.platform.feature"/>
       <feature id="org.csstudio.utilities.feature"/>
       <feature id="org.csstudio.pvmanager.autocomplete.feature"/>
-      <feature id="org.csstudio.olog.feature"/>
+      <!--      <feature id="org.csstudio.olog.feature"/>    -->
       <feature id="org.csstudio.email.feature"/>
       <feature id="org.csstudio.trends.databrowser2.feature"/>
-      <feature id="org.csstudio.logbook.viewer.feature"/>
+      <!-- <feature id="org.csstudio.logbook.viewer.feature"/>  -->
       <feature id="org.csstudio.trends.databrowser2.opiwidget.feature"/>
-      <feature id="org.csstudio.archive.reader.appliance.feature"/>
+      <!-- <feature id="org.csstudio.archive.reader.appliance.feature"/>    -->
       <feature id="org.csstudio.applications.channel.feature"/>
       <feature id="org.csstudio.applications.channelfinder.feature"/>
-      <feature id="org.csstudio.applications.logbook.feature"/>
+      <!-- <feature id="org.csstudio.applications.logbook.feature"/>    -->
       <feature id="org.csstudio.applications.opibuilder.feature"/>
       <feature id="org.csstudio.applications.utility.feature"/>
       <feature id="org.csstudio.display.pvtable.feature"/>
@@ -96,7 +96,8 @@
       <feature id="org.csstudio.graphene.feature"/>
       <feature id="org.csstudio.graphene.opiwidgets.feature"/>
       <feature id="org.eclipse.egit"/>
-      <feature id="org.eclipse.mylyn.github.feature"/>
+      <!-- <feature id="org.eclipse.mylyn.github.feature"/> -->
+      <feature id="org.csstudio.alarm.beast.ui.feature"/>
    </features>
 
    <configurations>
