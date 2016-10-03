@@ -1,0 +1,23 @@
+#!/bin/sh -e
+
+case "$1" in
+  configure)
+    mkdir -p /var/log/cs-studio
+    chmod a+x /usr/lib/cs-studio/cs-studio
+    chmod a+x /usr/bin/cs-studio
+    chmod -R a+rw /var/log/cs-studio
+    ;;
+  abort-upgrade)
+    :
+    ;;
+  abort-remove)
+    :
+    ;;
+  abort-deconfigure)
+    :
+    ;;
+  *) echo "$0: didn't understand"
+     exit 0
+    ;;
+esac
+exit 0

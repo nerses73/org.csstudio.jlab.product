@@ -1,0 +1,2 @@
+#!/bin/bash 
+exec sh -ac '. /etc/default/cs-studio; /usr/lib/cs-studio/cs-studio -pluginCustomization=/etc/cs-studio/plugin_customization.ini ${@}'

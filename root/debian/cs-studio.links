@@ -1,0 +1,4 @@
+etc/cs-studio/diirt usr/lib/cs-studio/configuration/diirt
+etc/cs-studio/authorization.conf usr/lib/cs-studio/configuration/authorization.conf
+etc/cs-studio/jaas.conf usr/lib/cs-studio/configuration/jaas.conf
+etc/cs-studio/plugin_customization.ini usr/lib/cs-studio/configuration/plugin_customization.ini

@@ -1,0 +1,180 @@
+cs-studio (4.3.2-6) unstable; urgency=medium
+
+  *  test
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Mon, 29 Aug 2016 16:05:51 -0400
+
+cs-studio (4.3.2-5) unstable; urgency=medium
+
+  * upgrade tuner version to 3.1.2
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Mon, 29 Aug 2016 15:16:30 -0400
+
+cs-studio (4.3.2-4) unstable; urgency=medium
+
+  *  save restore null pointer fix [PII-54]
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Wed, 27 Jul 2016 13:21:49 -0400
+
+cs-studio (4.3.2-3) unstable; urgency=medium
+
+  * Change java to Recommends [CSSTUD-63]
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Tue, 26 Jul 2016 15:08:36 -0400
+
+cs-studio (4.3.2-2) unstable; urgency=medium
+
+  *  Upgrade to tuner 3.1.1
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Tue, 26 Jul 2016 14:43:27 -0400
+
+cs-studio (4.3.2-1) unstable; urgency=medium
+
+  * upgrade to tuner 3.1.0
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Tue, 26 Jul 2016 11:04:48 -0400
+
+cs-studio (4.3.2-0) unstable; urgency=medium
+
+  * Merge from 4.3.2 upstream
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Mon, 25 Jul 2016 14:19:01 -0400
+
+cs-studio (4.3.1-21) unstable; urgency=medium
+
+  * Changed debian installer depends to oracle-java8-installer
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Mon, 25 Jul 2016 14:18:12 -0400
+
+cs-studio (4.3.1-20) unstable; urgency=medium
+
+  * tuner as root, update site to 4.3
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Mon, 25 Jul 2016 12:08:43 -0400
+
+cs-studio (4.3.1-19) unstable; urgency=medium
+
+  *  [CSSTUD-63] added greater than or equal to 1.8 to control file
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Fri, 22 Jul 2016 11:12:10 -0400
+
+cs-studio (4.3.1-18) unstable; urgency=medium
+
+  *  [CSSTUD-63] added greater than or equal to 1.8 to control file
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Fri, 22 Jul 2016 10:59:40 -0400
+
+cs-studio (4.3.1-17) unstable; urgency=medium
+
+  *  include windows and mac
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Wed, 20 Jul 2016 16:04:58 -0400
+
+cs-studio (4.3.1-16) unstable; urgency=medium
+
+  *  add tuner app and backport draw2d 3.9
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Wed, 06 Jul 2016 16:09:41 -0400
+
+cs-studio (4.3.1-15) unstable; urgency=medium
+
+  *  remove ops tuner
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Wed, 22 Jun 2016 09:59:22 -0400
+
+cs-studio (4.3.1-14) unstable; urgency=medium
+
+  *  add save restore and core util
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Wed, 22 Jun 2016 09:53:39 -0400
+
+cs-studio (4.3.1-13) unstable; urgency=medium
+
+  *  release
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Mon, 20 Jun 2016 10:46:07 -0400
+
+cs-studio (4.3.1-12) unstable; urgency=medium
+
+  *  release
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Thu, 12 May 2016 16:27:50 -0400
+
+cs-studio (4.3.1-11) unstable; urgency=medium
+
+  * release
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Thu, 12 May 2016 15:20:58 -0400
+
+cs-studio (4.3.1-10) unstable; urgency=medium
+
+  *  release
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Thu, 12 May 2016 15:03:12 -0400
+
+cs-studio (4.3.1-9) unstable; urgency=medium
+
+  * release
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Thu, 12 May 2016 14:58:54 -0400
+
+cs-studio (4.3.1-8) unstable; urgency=medium
+
+  * release
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Thu, 12 May 2016 14:47:00 -0400
+
+cs-studio (4.3.1-7) unstable; urgency=medium
+
+  *  release
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Thu, 12 May 2016 14:09:00 -0400
+
+cs-studio (4.3.1-6) unstable; urgency=medium
+
+  *  add var/log
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Fri, 29 Apr 2016 12:51:24 -0400
+
+cs-studio (4.3.1-5) unstable; urgency=medium
+
+  *  test
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Fri, 29 Apr 2016 12:25:57 -0400
+
+cs-studio (4.3.1-4) unstable; urgency=medium
+
+  *  test
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Fri, 29 Apr 2016 12:20:47 -0400
+
+cs-studio (4.3.1-3) unstable; urgency=medium
+
+  *  test
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Fri, 29 Apr 2016 12:15:40 -0400
+
+cs-studio (4.3.1-2) unstable; urgency=medium
+
+  *  test
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Fri, 29 Apr 2016 12:06:23 -0400
+
+cs-studio (4.3.1-1) unstable; urgency=medium
+
+  * test
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Fri, 29 Apr 2016 11:16:08 -0400
+
+cs-studio (4.3.1-0.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  *  test
+
+ -- Eric Berryman <jenkins-slave@jenkins5.nscl.msu.edu>  Fri, 29 Apr 2016 11:06:47 -0400
+
+cs-studio (4.3.1-0) unstable; urgency=low
+
+  * initial
+
+ -- Eric Berryman <berryman@frib.msu.edu>  Fri, 29 Apr 2016 09:34:33 -0400

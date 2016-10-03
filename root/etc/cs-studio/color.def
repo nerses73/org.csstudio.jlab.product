@@ -1,0 +1,63 @@
+Active Interlock = 243,110,0
+
+ControlsAndButtons Foreground = 0,0,0
+ControldAndButtons Background = 218,218,218
+
+Device Inserted into Beam = 243,110,0
+
+(disconnected) = 128,0,255
+
+EPICS Alarm MAJOR = 255,0,0
+EPICS Alarm MAJOR-Acknowledged = 100,0,0
+EPICS Alarm WARNING = 255,255,0
+EPICS Alarm WARNING-Acknowledged = 195,195,0
+EPICS Alarm NORMAL = 0,255,0
+EPICS Alarm INVLAID = 128,0,255
+EPICS Alarm STANDBY = 0,255,255
+
+Green LED On = 0,255,0
+Green LED Off = 0,51,102
+
+Header Foreground = 255,255,255
+Header Background = 51,51,51
+
+Input Fields Foreground = 0,0,0
+Input Fields Background = 218,218,218
+
+Menu Button Foreground = 255,255,255
+Menu Button Background = 130,130,130
+
+ReadBack/Graphs Foreground = 0,80,220
+ReadBack/Graphs Background = 255,255,255
+
+Red LED On = 255,0,0
+Red LED Off = 100,0,0
+
+Seperator Background = 158,158,158
+
+(selection) Foreground = 0,0,0
+(selection) Background = 210,220,229
+
+Screen Background = 240,240,240
+
+Title/Label Background = 240,240,240
+Title/Label Foreground = 0,0,0
+
+Toggle Button Foreground = 0,0,0
+Toggle Button Background = 218,218,218
+
+Valve representation Normal state = 0,255,0
+
+Write-Permission Denied = 255,0,0
+
+Yellow LED On = 255,255,0
+Yellow LED Off = 195,195,0
+
+
+
+
+
+
+
+
+
