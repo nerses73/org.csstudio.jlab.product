@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=CS-Studio
+GenericName=Control System Studio
+Exec=cs-studio
+Icon=cs-studio
+Terminal=false
+Type=Application
+Category=FRIB
+MimeType=

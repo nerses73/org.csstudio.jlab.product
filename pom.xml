@@ -106,11 +106,6 @@
                         <environment>
                             <os>win32</os>
                             <ws>win32</ws>
-                            <arch>x86</arch>
-                        </environment>
-                        <environment>
-                            <os>win32</os>
-                            <ws>win32</ws>
                             <arch>x86_64</arch>
                         </environment>
                         <environment>
@@ -232,11 +227,6 @@
         <repository>
             <id>efx</id>
             <url>http://download.eclipse.org/efxclipse/runtime-released/2.1.0/site</url>
-            <layout>p2</layout>
-        </repository>
-        <repository>
-            <id>mercurialeclipse</id>
-            <url>http://download.controlsystemstudio.org/mercurialeclipse</url>
             <layout>p2</layout>
         </repository>
     </repositories>

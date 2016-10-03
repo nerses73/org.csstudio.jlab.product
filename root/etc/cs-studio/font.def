@@ -1,0 +1,19 @@
+Header Title = Arial-bold-18
+Panel and Graph Title = Arial-bold-10
+Main Menu and Diagrams = Arial-regular-14
+Controls and Buttons = Arial-regular-9
+Read backs and Input Fields = Arial-regular-9
+Labels and Graph Axis = Arial-regular-9
+
+Header Title(linux_gtk) = Arial-bold-18
+Panel and Graph Title(linux_gtk) = Arial-bold-10
+Main Menu and Diagrams(linux_gtk) = Arial-regular-14
+Controls and Buttons(linux_gtk) = Arial-regular-9
+Read backs and Input Fields(linux_gtk) = Arial-regular-9
+Labels and Graph Axis(linux_gtk) = Arial-regular-9
+Default(linux_gtk) = Liberation Sans-regular-8
+Default Bold(linux_gtk) = Liberation Sans-bold-8
+Header 1(linux_gtk) = Liberation Sans-bold-16
+Header 2(linux_gtk) = Liberation Sans-bold-12
+Header 3(linux_gtk) = Liberation Sans-bold-10
+Fine Print(linux_gtk) = Liberation Sans-regular-6

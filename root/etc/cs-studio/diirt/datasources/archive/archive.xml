@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive version="1">
+  <archivesources>
+  <binCount>1000</binCount>
+    <source name="MainArchive" url="pbraw://epicsarchiver.frib.msu.edu/retrieval" key="1"/>
+  </archivesources>
+</archive>
