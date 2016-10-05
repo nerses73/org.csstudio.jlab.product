@@ -2,7 +2,7 @@
 <feature
       id="org.csstudio.jlab.product.configuration.feature"
       label="Product configuration feature"
-      version="0.0.1.qualifier">
+      version="4.3.3">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]

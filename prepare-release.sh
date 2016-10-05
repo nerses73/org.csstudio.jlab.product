@@ -13,7 +13,7 @@ fi
 
 
 echo ::: Updating plugin versions ::
-mvn -Dtycho.mode=maven org.eclipse.tycho:tycho-versions-plugin:0.20.0:set-version -DnewVersion=$VERSION -Dartifacts=frib-product,products-csstudio-frib-features,org.csstudio.frib.product.feature,frib-repository
+mvn -Dtycho.mode=maven org.eclipse.tycho:tycho-versions-plugin:0.20.0:set-version -DnewVersion=$VERSION -Dartifacts=jlab-product,products-csstudio-jlab-features,org.csstudio.jlab.product.feature,jlab-repository
 # update product because set-version doesn't
 sed -i 's/\(\<product[^>]\+\? version=\"\)[^"]*\("[^>]\+\?>\)/\1'${VERSION}'\2/g'  repository/cs-studio.product
 
