@@ -73,7 +73,8 @@
       <feature id="org.eclipse.fx.target.rcp.feature"/>
       <feature id="org.eclipse.help"/>
       <feature id="org.csstudio.product.feature"/>
-      <feature id="org.csstudio.core.utility.feature"/>
+      <!--<feature id="org.csstudio.core.utility.feature"/> -->
+      <feature id="org.csstudio.utilities.feature"/>
       <feature id="org.csstudio.core.diirt.feature"/>
       <feature id="org.csstudio.core.ui.feature"/>
       <feature id="org.csstudio.core.base.feature"/>
