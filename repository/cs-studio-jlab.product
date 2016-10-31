@@ -17,8 +17,8 @@
       <programArgsLin>--launcher.GTK_version
 2
       </programArgsLin>
-      <vmArgs>-Xmx1024m
--Xms128m
+      <vmArgs>-Xmx2g
+-Xms2g
 -Dosgi.configuration.cascaded=true
 -Dosgi.sharedConfiguration.area.readOnly=true
 -Dosgi.install.area.readOnly=true
