@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Cs-studio-jlab" uid="cs-studio-jlab" id="org.csstudio.product.product" application="org.csstudio.product.application" version="4.3.3" useFeatures="true" includeLaunchers="true">
+<product name="Cs-studio-jlab" uid="cs-studio-jlab" id="org.csstudio.product.product" application="org.csstudio.product.application" version="4.4.0" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/org.csstudio.product/icons/cs-studio-about.png"/>
@@ -85,7 +85,7 @@
       <feature id="org.csstudio.applications.opibuilder.feature"/>
       <feature id="org.csstudio.applications.channel.feature"/>
       <feature id="org.csstudio.applications.channelfinder.feature"/>
-      <!--<feature id="org.csstudio.applications.logbook.feature"/> -->
+      <feature id="org.csstudio.applications.logbook.feature"/>
       <feature id="org.csstudio.applications.pvmanager.diag.feature"/>
       <feature id="org.csstudio.display.pvtable.feature"/>
       <feature id="org.csstudio.alarm.beast.ui.feature"/>
