@@ -43,7 +43,7 @@
    <launcher name="cs-studio">
       <solaris/>
       <win useIco="true">
-         <ico path="/jlab-product/repository/icons/css.ico"/>
+          <ico path="/org.csstudio.jlab.product/repository/icons/css.ico"/>
          <bmp/>
       </win>
    </launcher>

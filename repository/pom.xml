@@ -3,10 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.csstudio</groupId>
-        <artifactId>jlab-product</artifactId>
-        <version>4.5.0</version>
+        <artifactId>product</artifactId>
+        <version>BUILD-VERSION</version>
     </parent>
     <artifactId>repository</artifactId>
+    <version>4.5.0</version>
     <packaging>eclipse-repository</packaging>
 
     <build>

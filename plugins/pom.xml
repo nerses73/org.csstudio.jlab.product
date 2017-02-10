@@ -4,10 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.csstudio</groupId>
-    <artifactId>products-csstudio-features</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>product</artifactId>
+    <version>BUILD-VERSION</version>
   </parent>
-  <artifactId>org.csstudio.jlab.product.configuration.feature</artifactId>
+  <artifactId>products-csstudio-plugins</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>eclipse-feature</packaging>
+  <packaging>pom</packaging>
+  <modules>
+    <module>org.csstudio.jlab.product</module>
+  </modules>
 </project>

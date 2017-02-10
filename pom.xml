@@ -2,16 +2,15 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.csstudio</groupId>
-    <artifactId>jlab-product</artifactId>
-    <version>4.5.0</version>
+    <artifactId>product</artifactId>
+    <version>BUILD-VERSION</version>
     <packaging>pom</packaging>
-    <name>JLab CS-Studio Product</name>
-    <description>JLab CS-Studio product</description>
 
     <!-- CHILD MODULES -->
     <modules>
-        <module>repository</module>
         <module>features</module>
+        <module>plugins</module>
+        <module>repository</module>
     </modules>
 
     <!-- USE MAVEN 3.0 -->
