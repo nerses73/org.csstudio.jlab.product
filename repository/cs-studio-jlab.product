@@ -107,7 +107,10 @@
       <feature id="org.csstudio.alarm.beast.ui.alarmtable.opiwidget.feature"/>
       <feature id="org.csstudio.alarm.diirt.datasource.feature"/>
       <feature id="org.csstudio.archive.diirt.datasource.feature"/>
-   </features>
+      <feature id="org.csstudio.applications.opibuilder.feature"/>
+      <feature id="org.csstudio.applications.opibuilder.medm.feature"/>
+      <feature id="org.csstudio.applications.opibuilder.edm.feature"/>
+  </features>
 
    <configurations>
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
