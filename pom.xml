@@ -8,8 +8,8 @@
 
     <!-- CHILD MODULES -->
     <modules>
-        <module>features</module>
         <module>plugins</module>
+        <module>features</module>
         <module>repository</module>
     </modules>
 
@@ -21,9 +21,10 @@
     <!-- PROPERTIES -->
     <properties>
         <!-- VERSIONS -->
-        <tycho.version>0.23.1</tycho.version>
-        <tycho-extras.version>0.23.1</tycho-extras.version>
+        <tycho.version>0.24.0</tycho.version>
+        <tycho-extras.version>0.24.0</tycho-extras.version>
         <cs-studio.version>4.5</cs-studio.version>
+        <alarm.version>4.1.1</alarm.version>
         <cs-studio-central.url>http://download.controlsystemstudio.org/product/${cs-studio.version}</cs-studio-central.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jgit.dirtyWorkingTree>error</jgit.dirtyWorkingTree>
@@ -92,11 +93,11 @@
                     </dependency-resolution>
 
                     <environments>
-                        <environment>
+                        <!--<environment>
                             <os>linux</os>
                             <ws>gtk</ws>
                             <arch>x86</arch>
-                        </environment>
+                        </environment>-->
                         <environment>
                             <os>linux</os>
                             <ws>gtk</ws>
@@ -188,9 +189,24 @@
             </activation>
             <repositories>
                 <repository>
-                    <id>csstudio-updates</id>
-                    <url>http://download.controlsystemstudio.org/updates/${cs-studio.version}</url>
-                    <layout>p2</layout>
+                  <id>csstudio-updates</id>
+                  <url>http://download.controlsystemstudio.org/updates/${cs-studio.version}</url>
+                  <layout>p2</layout>
+                </repository>
+                <repository>
+                  <id>csstudio-thirdparty</id>
+                  <url>http://download.controlsystemstudio.org/thirdparty/4.3</url>
+                  <layout>p2</layout>
+                </repository>
+                <repository>
+                  <id>csstudio-maven-osgi-bundles</id>
+                  <url>http://download.controlsystemstudio.org/maven-osgi-bundles/4.3</url>
+                  <layout>p2</layout>
+                </repository>
+                <repository>
+                  <id>csstudio-core</id>
+                  <url>http://download.controlsystemstudio.org/updates/4.3</url>
+                  <layout>p2</layout>
                 </repository>
             </repositories>
         </profile>

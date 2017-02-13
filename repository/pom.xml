@@ -30,10 +30,34 @@
                     </formats>
                     <products>
                         <product>
-                            <id>${product.name}</id>
-                            <rootFolder>cs-studio</rootFolder>
-                            <archiveFileName>${product.name}-${product.version}</archiveFileName>
+                          <id>${product.name}</id>
+                          <rootFolder>cs-studio</rootFolder>
+                          <archiveFileName>${product.name}-${product.version}</archiveFileName>
                         </product>
+                        <product>
+                          <id>beast-alarm-server</id>
+                          <rootFolder>beast-alarm-server-${alarm.version}</rootFolder>
+                          <archiveFileName>beast-alarm-server-${alarm.version}</archiveFileName>
+                          <attachId>beast-alarm-server</attachId>
+                        </product>
+                        <product>
+                          <id>beast-alarm-notifier</id>
+                          <rootFolder>beast-alarm-notifier-${alarm.version}</rootFolder>
+                          <archiveFileName>beast-alarm-notifier-${alarm.version}</archiveFileName>
+                          <attachId>beast-alarm-notifier</attachId>
+                        </product>
+                	    <product>
+                          <id>beast-alarm-config</id>
+                          <rootFolder>beast-alarm-config-${alarm.version}</rootFolder>
+                          <archiveFileName>beast-alarm-config-${alarm.version}</archiveFileName>
+                          <attachId>beast-alarm-config</attachId>
+                	    </product>
+                	    <product>
+                          <id>beast-alarm-jms2rdb</id>
+                          <rootFolder>beast-alarm-jms2rdb-${alarm.version}</rootFolder>
+                          <archiveFileName>beast-alarm-jms2rdb-${alarm.version}</archiveFileName>
+                          <attachId>beast-alarm-jms2rdb</attachId>
+                	    </product>
                     </products>
                 </configuration>
                 <executions>
