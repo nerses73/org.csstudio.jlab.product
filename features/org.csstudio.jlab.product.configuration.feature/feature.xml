@@ -2,7 +2,7 @@
 <feature
       id="org.csstudio.jlab.product.configuration.feature"
       label="JLAB configuration feature"
-      version="0.0.1.qualifier">
+      version="1.0.0.qualifier">
 
    <description url="http://github.com/wmoore28/org.csstudio.jlab.product">
       JLAB CS-Studio Configuration
@@ -15,12 +15,5 @@
    <license url="http://www.example.com/license">
       [Enter License Description here.]
    </license>
-
-   <plugin
-         id="org.eclipse.draw2d"
-         download-size="0"
-         install-size="0"
-         version="3.9.101.201408150207"
-	 unpack="false"/>
 
 </feature>
