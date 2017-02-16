@@ -22,7 +22,7 @@
     <properties>
         <!-- VERSIONS -->
         <tycho.version>0.24.0</tycho.version>
-        <tycho-extras.version>0.24.0</tycho-extras.version>
+        <tycho-extras.version>${tycho.version}</tycho-extras.version>
         <cs-studio.version>4.5</cs-studio.version>
         <alarm.version>4.1.1</alarm.version>
         <cs-studio-central.url>http://download.controlsystemstudio.org/product/${cs-studio.version}</cs-studio-central.url>
@@ -30,7 +30,7 @@
         <jgit.dirtyWorkingTree>error</jgit.dirtyWorkingTree>
         <baselineMode>fail</baselineMode>
 	<product.name>cs-studio-jlab</product.name>
-	<product.version>${cs-studio.version}.0</product.version>
+	<product.version>${cs-studio.version}</product.version>
     </properties>
 
     <!-- PLUGIN REPOSITORIES -->
