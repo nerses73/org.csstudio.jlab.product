@@ -1,5 +1,4 @@
 langauge: java
-env: TRAVIS_BUILD_DIR=repository/target/products/
 sudo: false
 dist: trusty
 addons:
@@ -22,10 +21,10 @@ deploy:
   api_key:
     secure: Eahtx5IATOl5sd59amMtDwYv23WAoZHcmUbZRt9UiMslAyUgFsQeJKUU+tN3xYwyhYQqsbtvcnYkInyjoEmPVx7idEpsHheGEWlprHv14KNLjdRHZf2yibZ63qLVhsGz3jTO1NtZFW9Q1zjPAZ/gYr8n8hoBWTi2CPwJDhVKAZJB+Daq/Ywec+kRPxfFM1ZR7LUeoSxvuilrer5VWNXvj5Y/sPnj/m8m5+yOqgXCXfjzxhyeghjvEp3YBXc/UTZxpmjuWHjcZPvgTRO+DMduSorteoEwZ3zVOIppjh0FRpWK7ZeNereH3qDPu+zzaYaG1ZSHkbuz7unOuv+hNydxSxOQKxbdee7t7NYY5yG+sA3xPZ4+IU0ztDdJmNAbEkpZpezBW5/jy2qxS2rz3SHU4WJqhPBSxCZjIheqV1tSe/XYAzgGU42rqrfe/Q1KMT3sAA61L1bL7dTCIj6p5tD6jDcr9nNtbbZJlGsBTFpTsbT6K3lOg0hPHClEFGyvtE7DCV5q+kHOLJdsyVQDucW+LrLdw3oZ8C1O5i/rqcvJ2Sp0jaqWQuJ6VuIPoa3rzsil4gVOVrkzBRdTlN6dxP3n1jhwliMNAjPY+/luS8Vtn3+neD+XyUd2nWH4FhAWdL23nqxWsa0KQSCo8VN+3c1omY/014EqZEQVwuW126VRpLw=
   file: 
-    - cs-studio-jlab-4.5.0-linux.gtk.x86_64.tar.gz
-    - cs-studio-jlab-4.5.0-linux.gtk.x86.tar.gz
-    - cs-studio-jlab-4.5.0-macosx.cocoa.x86_64.zip
-    - cs-studio-jlab-4.5.0-win32.win32.x86_64.zip
+    - repository/target/products/cs-studio-jlab-4.5.0-linux.gtk.x86_64.tar.gz
+    - repository/target/products/cs-studio-jlab-4.5.0-linux.gtk.x86.tar.gz
+    - repository/target/products/cs-studio-jlab-4.5.0-macosx.cocoa.x86_64.zip
+    - repository/target/products/cs-studio-jlab-4.5.0-win32.win32.x86_64.zip
   overwrite: true
   skip_cleanup: true
   on:
